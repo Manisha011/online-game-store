@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/background.jpg);
+    background-size: cover;
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: black;
+    position: relative;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    left: -4em !important;
+    width: 85px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav ul li a{
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+nav ul li:nth-child(2),nav ul li:nth-child(2) a{
+    background-color: white;
+    color: black !important;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    opacity: 0.3;
+}
+h2{
+    color: white;
+    padding: 5px 15px;
+    font-size: 50px;
+}
+.image{
+    border: 0 solid ;
+    text-align: right;
+    display: flex;
+    position: fixed;
+    right: 3%;
+    bottom: 0;
+    flex: 1;
+    height: 80vh;
+    width: 900px;
+    justify-content: space-between;
+    z-index: 10;
+    background-image: url("./899965.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image h1{
+    display: flex;
+    position: relative;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+h1:hover{
+    opacity: 0.2;
+    background: light black;
+}
