@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/trial.css" />
+    <title>Trial Game</title>
+  </head>
+  <body>
+    <section
+      class="main d-flex flex-column justify-content-between align-items-center"
+    >
+      <div class="mainTop d-flex align-items-center justify-content-start align-self-start">
+        <a href="index.html">
+          <span class="mainTopBack"><</span>
+          <img src="assets/game/logo.png" alt="" class="mainTopLogo" />
+          <span class="mainTopTitle">rock paper scissors</span>
+        </a>
+      </div>
+      <div class="gameSec d-flex justify-content-center align-items-center" id="theGame">
+        <div class="player d-flex flex-column align-items-center justify-content-around" id="player"></div>
+        <div class="result d-flex justify-content-center align-items-center" id="result"><h1>VS</h1></div>
+        <div class="computer d-flex flex-column align-items-center justify-content-around" id="computer"></div>
+      </div>
+      <div class="bottom d-flex flex-column justify-content-center align-items-center">
+        <div class="choice" id="refresh">
+          <img src="assets/game/refresh.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="styles/script.js"></script>
+  </body>
+</html>

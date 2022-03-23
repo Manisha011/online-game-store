@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="19.148922"
+   height="18.164825"
+   viewBox="0 0 19.148922 18.164825"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="twitch.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="27.894737"
+     inkscape:cx="9.1773585"
+     inkscape:cy="8.8009434"
+     inkscape:window-width="1920"
+     inkscape:window-height="1049"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     id="g938"
+     transform="translate(5.6097522,5.3344305)">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 13.539169,7.6105935 v -4.0714 -8.873624 H -3.4820912 l -2.127661,2.296704 v 12.10992 h 5.319151 v 3.7582005 h 2.34042 l 2.55315,-2.7143 h 6.3830002 z m -12.5532602,-0.2087 h -3.40426 c -0.23404,0 -0.42553,-0.1879 -0.42553,-0.4176 v -10.23073 c 0,-0.22967 0.19149,-0.41758 0.42553,-0.41758 H 11.198669 c 0.234,0 0.4255,0.18791 0.4255,0.41758 v 7.93403 c 0,0.1149 -0.0425,0.2193 -0.1223,0.2976 l -2.3404002,2.2967 c -0.0798,0.0783 -0.1915,0.12 -0.3032,0.12 h -3.9096 l -3.29787,2.2236 c -0.06915,0.047 -0.15426,0.0731 -0.23936,0.0731 -0.06915,0 -0.13298,-0.0156 -0.19681,-0.047 -0.14362,-0.073 -0.22872,-0.214 -0.22872,-0.3706 z"
+       fill="#ffffff"
+       id="path2" />
+    <path
+       d="M 5.9574798,4.1758295 V 0 h -1.7022 v 4.1758295 z m -4.2553498,0 V 0 H 0 v 4.1758295 z"
+       fill="#ffffff"
+       id="path4" />
+  </g>
+</svg>

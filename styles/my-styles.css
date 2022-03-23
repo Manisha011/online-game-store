@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+
+body {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  min-height: 100vh;
+  min-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+}
+
+h1,
+.h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+}
+
+.btn-lg {
+  background-color: #ffb548;
+  color: #000;
+  font-size: 16px;
+  padding: 16px;
+  width: 260px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* main-screen */
+
+.main-screen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 00.5)),
+    url("../assets/images/main-bg.png");
+}
+
+.main-screen-text {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+}
+
+.main-screen-text h1 {
+  font-weight: 700;
+  font-size: 90px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+}
+
+.main-screen-text p {
+  font-size: 24px;
+  opacity: 0.7;
+  margin: 50px 0;
+}
+
+.scroll-down {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* end main-screen */
+
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 90px;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+}
+
+.navbar ul li {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.navbar ul li a:hover {
+  color: #ffb548;
+}
+
+
+/* Navbar */
+
+/* Game choice */
+
+.game-choice-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 00.5)),
+    url("../assets/images/the-games-bg.jpg");
+}
+
+.game-choice-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 00.5)),
+    url("../assets/images/features.png");
+}
+
+.gc-carousel {
+  width: 60%;
+}
+
+.gc-feature {
+  width: 40%;
+}
+
+.gc-ft {
+  height: 50vh;
+  padding-top: 10rem;
+  margin: 15px;
+}
+
+div .bullet {
+  width: 15%;
+}
+
+.gc-ft span {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  display: block;
+  border: 1px solid #fff;
+}
+
+.gc-ft span:nth-child(1) {
+  background-color: #fff;
+}
+
+.gc-ft span:nth-child(2) {
+  height: 10rem;
+  width: 2px;
+  margin-left: 8px;
+  border-radius: 0px;
+  background-color: #fff;
+  border: none;
+}
+.gc-ft-txt h2 {
+  color: #ffb548;
+}
+
+.gc-ft span:nth-child(4) {
+  margin-top: 5rem;
+}
+
+.gc-ft-txt h2:nth-child(3) {
+  margin-top: 5rem;
+}
+
+.gc-ft-txt h2:nth-child(4) {
+  margin-top: 4rem;
+}
+/* Game Choice */
+
+/* Game Requirement */
+.game-req {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 00.5)),
+    url("../assets/images/requirements.png");
+
+  padding: 4rem;
+}
+
+.game-req table {
+  width: 50%;
+}
+
+.game-req table,
+tr,
+td {
+  border: 1px solid rgba(139, 138, 138, 0.3);
+  padding: 0.5rem;
+}
+
+.game-req h2 {
+  color: #ffb548;
+  font-size: 24px;
+}
+/* End Game Requirement */
+
+/* Top Score */
+.top-score {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 00.5)),
+    url("../assets/images/image10.png");
+}
+
+.ts-quote {
+  width: 50%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ts-quote img {
+  -webkit-user-drag: none;
+  height: 150px;
+  margin: 6px 0;
+}
+
+.ts-quote img:nth-child(1) {
+  margin-left: 8rem;
+}
+
+.ts-quote img:nth-child(3) {
+  margin-left: 6rem;
+}
+/* end top socre */
+
+/* Newsletter */
+.newsletter {
+  background-color: #040505;
+}
+
+.news-image {
+  min-width: 20%;
+  min-height: 600px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
+.news-image img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  -webkit-user-drag: none;
+}
+
+.gradient {
+  background: radial-gradient(rgba(255, 255, 255, 0), rgb(4, 5, 4));
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.news-text {
+  width: 50%;
+  min-height: 100vh;
+}
+
+.news-text > * {
+  margin: 4px;
+}
+.subscribe {
+  margin: 50px 0;
+}
+
+.subscribe input[type="email"] {
+  background-color: rgba(37, 37, 37, 0.466);
+  color: #ffb548;
+  border: none;
+}
+.subscribe button {
+  width: 5%;
+  margin-left: 10px;
+}
+/* End Newsletter */
+
+/* Footer */
+footer {
+  min-height: 100px;
+  background-color: #040505;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 2em 2em;
+  color: #fff;
+  font-size: 0.8em;
+}
+.menu-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+}
+
+.menu-footer a:nth-child(1){
+  grid-column-start: 2;
+}
+
+.f-note {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.f-note .link {
+  align-self: end;
+  text-align: right;
+}
+.f-note a {
+  margin: 0;
+}
+.menu-footer img {
+  opacity: 0.7;
+}
+
+footer a:hover {
+  color: #ffb548;
+}
+
+.menu-footer a img:hover {
+  opacity: 1;
+}
+/* End Footer */
+
+/* Break Point */
+
+@media screen and (max-width: 1366px) {
+  .navbar {
+    min-height: 0;
+    z-index: 9999;
+  }
+
+  .navbar button{
+    background-color: #fff;
+  }
+  .main-screen-text {
+    top: 30%;
+  }
+
+  .main-screen-text h1 {
+    font-size: 70px;
+  }
+
+  .main-screen-text p {
+    font-size: 20px;
+    opacity: 0.7;
+    margin: 40px 0;
+  }
+
+  .main-screen-text .btn-lg {
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .scroll-down {
+    margin-bottom: 30px;
+  }
+
+  .gc-feature {
+    width: 45%;
+  }
+
+  .gc-ft {
+    height: 30vh;
+    padding-top: 4rem;
+  }
+  .gc-ft span {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+  }
+
+  .gc-ft span:nth-child(2) {
+    margin-left: 6px;
+    height: 7rem;
+  }
+
+  .gc-ft span:nth-child(4) {
+    margin-top: 3rem;
+  }
+
+  .gc-ft-txt h2:nth-child(3) {
+    margin-top: 3rem;
+  }
+
+  .gc-ft-txt h2:nth-child(4) {
+    margin-top: 2.5rem;
+  }
+
+  .gc-ft h2 {
+    font-size: 1.2rem;
+  }
+
+  .gc-ft p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  
+  h1,
+  .h1 {
+    font-weight: 200;
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .main-screen-text {
+    top: 30%;
+  }
+
+  .main-screen-text h1 {
+    font-size: 40px;
+  }
+
+  .main-screen-text p {
+    font-size: 20px;
+    opacity: 0.7;
+    margin: 30px 0;
+  }
+
+  .main-screen-text .btn-lg {
+    font-size: 12px;
+    width: 180px;
+  }
+
+  .scroll-down {
+    margin-bottom: 40px;
+  }
+
+  .gc-carousel {
+    width: 70%;
+  }
+
+  .--flex-column {
+    flex-direction: column;
+  }
+  .gc-txt {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .gc-feature {
+    width: 45%;
+  }
+
+  .gc-feature .gc-txt {
+    text-align: left;
+  }
+
+  .game-req table {
+    width: 100%;
+  }
+
+  .top-score {
+    flex-direction: column;
+  }
+
+  .ts-text {
+    height: 30%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .ts-quote {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .ts-quote img {
+    -webkit-user-drag: none;
+    margin: 1rem;
+  }
+
+  .ts-quote img:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .ts-quote img:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .news-image {
+    min-width: 300px;
+    min-height: 400px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .news-image img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    -webkit-user-drag: none;
+  }
+
+  .news-text {
+    padding-right: 20px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    min-width: 100px;
+    min-height: 100px;
+    align-items: center;
+  }
+
+  .subscribe input[type="email"] {
+    background-color: rgba(37, 37, 37, 0.466);
+    color: #ffb548;
+    border: none;
+  }
+  .form-floating {
+    width: 100%;
+  }
+  .subscribe button {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu-footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+  }
+
+  .menu-footer a:nth-child(1){
+    grid-column-start: 1;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  h1,
+  .h1 {
+    font-weight: 200;
+    font-size: 2rem;
+  }
+
+  .main-screen-text {
+    top: 30%;
+  }
+
+  .main-screen-text h1 {
+    font-size: 30px;
+  }
+
+  .main-screen-text p {
+    font-size: 15px;
+    margin: 30px 0;
+  }
+
+  .main-screen-text .btn-lg {
+    font-size: 10px;
+    width: 160px;
+  }
+  .gc-txt {
+    margin-bottom: 0;
+  }
+  .gc-feature {
+    width: 60%;
+  }
+
+  .gc-ft {
+    height: 30vh;
+    padding-top: 0;
+  }
+
+  .gc-ft span {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+  }
+
+  .gc-ft span:nth-child(2) {
+    margin-left: 4px;
+    height: 5rem;
+  }
+
+  .gc-ft span:nth-child(4) {
+    margin-top: 3rem;
+  }
+
+  .gc-ft-txt h2:nth-child(3) {
+    margin-top: 2rem;
+  }
+
+  .gc-ft-txt h2:nth-child(4) {
+    margin-top: 2.5rem;
+  }
+
+  .gc-ft h2 {
+    font-size: 1rem;
+  }
+
+  .gc-ft p {
+    font-size: 0.6rem;
+  }
+
+  .ts-text {
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ts-quote {
+    height: 0px;
+    display: none;
+  }
+
+  .newsletter {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .news-image {
+    min-width: 300px;
+    min-height: 400px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+  }
+
+  .news-image img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    -webkit-user-drag: none;
+  }
+
+  .newsletter {
+    text-align: center;
+  }
+  .news-text {
+    min-width: 100%;
+    z-index: 9999;
+  }
+  .subscribe {
+    margin-left: 15px;
+  }
+
+  footer a{
+    margin: 0.5em 0.5em;
+  }
+  .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .f-note {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+/* End Break Point */

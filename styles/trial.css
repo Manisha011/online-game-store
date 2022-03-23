@@ -1,0 +1,189 @@
+body {
+  background-color: #9c835f;
+  font-family: "Open Sans", sans-serif;
+  overflow-y: hidden;
+}
+
+section.main {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.mainTop {
+  transition: 0.3s;
+}
+
+.mainTop:hover {
+  opacity: 0.8;
+}
+
+.mainTop > * {
+  padding: 0;
+  margin: 5px 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.mainTopBack {
+  color: #945d03;
+}
+
+.mainTopLogo {
+  width: 30px;
+}
+
+.mainTopTitle {
+  color: #f9b23d;
+  font-size: 2rem;
+}
+
+.gameSec {
+  width: 100%;
+  height: 100%;
+}
+
+.choice {
+  width: 100px;
+  height: 100px;
+  background-color: #99794d;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  background-color: #a08f76;
+  cursor: pointer;
+}
+
+#computer .choice:hover {
+  pointer-events: none;
+  background-color: #99794d;
+}
+
+.choiced {
+  background-color: white;
+  animation: animate 0.2s linear;
+  animation-iteration-count: 5;
+}
+
+.removeEvent {
+  pointer-events: none;
+}
+
+@keyframes animate {
+  from {
+    background-color: #cac7c3;
+  }
+  to {
+    background-color: #99794d;
+  }
+}
+
+.gameSec img {
+  height: 50px;
+  width: 50px;
+}
+
+.player,
+.computer {
+  height: 100%;
+  flex: 2;
+}
+
+.player span,
+.computer span {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+
+.result {
+  position: absolute;
+}
+
+.result h1 {
+  height: 100%;
+  flex: 1;
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+}
+
+.gameResult {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  font-weight: 900;
+  transform: rotate(-25deg);
+}
+
+.bottom {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 15px;
+}
+
+.bottom .choice {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#refresh img {
+  height: 30px;
+}
+
+.refresh {
+  animation: putar 2s linear infinite;
+  background-color: white;
+}
+
+@keyframes putar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainTopTitle {
+    font-size: 1.2rem;
+  }
+
+  .choice {
+    width: 80px;
+    height: 80px;
+  }
+
+  .gameSec img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .result h1 {
+    font-size: 2em;
+  }
+
+  .bottom .choice {
+    height: 50px;
+    width: 50px;
+  }
+
+  div#refresh img {
+    height: 20px;
+  }
+}
